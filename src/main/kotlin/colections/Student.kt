@@ -1,4 +1,8 @@
 package org.ies.tierno.colections
 
-class Student {
-}
+data class Student(
+    val name: String,
+    val surname: String,
+    val email: String,
+    val zipCode: Int
+)
